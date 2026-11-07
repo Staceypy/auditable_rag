@@ -1,0 +1,24 @@
+# Shareholders' Agreement of Halvard Robotics GmbH
+
+--- page 1 ---
+FICTIONAL DOCUMENT, WRITTEN FOR A SOFTWARE DEMO. NOT LEGAL ADVICE. Any resemblance to real companies or persons is coincidental.
+
+This Shareholders' Agreement, as amended on 15 January 2025, is entered into between Anna Berg ("Founder A"), Jonas Lind ("Founder B") and Polaris Seed Fund I ("the Investor"), together "the Shareholders", in respect of Halvard Robotics GmbH ("the Company").
+
+Clause 1 (Share capital). The share capital of the Company is EUR 50,000. Founder A holds 40 percent, Founder B holds 35 percent and the Investor holds 25 percent of the shares.
+
+Clause 2 (Board). The Company has a board of three directors. Founder A and Founder B each appoint one director. The Investor appoints one director for as long as it holds at least 10 percent of the shares.
+
+--- page 2 ---
+Clause 3 (Transfer of shares). A Shareholder who wishes to sell or otherwise transfer shares must first offer them to the other Shareholders (right of first refusal). The selling Shareholder must give written notice of the proposed transfer, including the price and the identity of the buyer, at least 45 days before the transfer.
+
+Clause 4 (Exercise of the right of first refusal). The other Shareholders may accept the offer within the 45-day notice period, in proportion to their shareholdings. Shares not taken up may then be sold to the named buyer at a price no lower than the notified price.
+
+Clause 5 (Drag-along). If Shareholders holding more than 75 percent of the shares accept an offer from a third party for all shares, they may require the remaining Shareholders to sell their shares on the same terms.
+
+Clause 5a (Tag-along). If a Shareholder sells more than 50 percent of the shares to a third party, each other Shareholder may require the buyer to also purchase its shares on the same terms.
+
+--- page 3 ---
+Clause 6 (Confidentiality). Each Shareholder must keep confidential all information about the Company that is not publicly available, during the term of this Agreement and for three years after it ceases to be a Shareholder.
+
+Clause 7 (Governing law and disputes). This Agreement is governed by German law. Disputes are decided by the courts of Hamburg.

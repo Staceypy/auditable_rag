@@ -1,0 +1,19 @@
+# Mutual Non-Disclosure Agreement between Halvard Robotics GmbH and Tern Analytics Ltd
+
+--- page 1 ---
+FICTIONAL DOCUMENT, WRITTEN FOR A SOFTWARE DEMO. NOT LEGAL ADVICE. Any resemblance to real companies or persons is coincidental.
+
+This Mutual Non-Disclosure Agreement is entered into on 10 June 2024 between Halvard Robotics GmbH and Tern Analytics Ltd (each "a Party") for the purpose of evaluating a possible joint development of warehouse robot software ("the Purpose").
+
+Section 1 (Confidential Information). Confidential Information means any technical, commercial or financial information disclosed by one Party to the other in connection with the Purpose, whether in writing, orally or by demonstration, that is marked as confidential or would reasonably be understood to be confidential.
+
+Section 2 (Obligations). The receiving Party may use Confidential Information only for the Purpose, must protect it with at least reasonable care, and may disclose it only to employees and advisers who need to know it and are bound by equivalent obligations.
+
+--- page 2 ---
+Section 3 (Exceptions). The obligations do not apply to information that is or becomes public without breach of this Agreement, was already lawfully known to the receiving Party, or must be disclosed by law or court order, in which case the receiving Party must notify the disclosing Party promptly where legally permitted.
+
+Section 4 (Term). This Agreement applies to disclosures made within two years from its date. The confidentiality obligations last for three years after each disclosure.
+
+Section 5 (Return of information). On request, the receiving Party must return or destroy all Confidential Information within 14 days and confirm this in writing.
+
+Section 6 (Governing law). This Agreement is governed by the laws of England and Wales.
