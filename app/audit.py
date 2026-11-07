@@ -139,7 +139,14 @@ def append_event(
 
     Assumes the default READ COMMITTED isolation, where step 2 sees the event
     committed by the previous lock holder.
+
+    Must not be called inside an open transaction: the block below would then
+    only be a savepoint, so nothing would be committed (and the lock would be
+    held) until the caller's transaction ends.
     """
+    if conn.info.transaction_status != psycopg.pq.TransactionStatus.IDLE:
+        raise RuntimeError("append_event must run in its own transaction; commit or roll back first")
+
     with conn.transaction():
         for text in blobs:
             put_blob(conn, text)

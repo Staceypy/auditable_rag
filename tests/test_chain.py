@@ -187,6 +187,14 @@ def test_event_and_blob_are_written_atomically(app_conn):
     assert app_conn.execute("SELECT count(*) AS n FROM audit_events").fetchone()["n"] == 0
 
 
+def test_append_refuses_to_run_inside_an_open_transaction(app_conn):
+    """Otherwise the event would sit uncommitted until the caller's transaction ends."""
+    with app_conn.transaction():
+        with pytest.raises(RuntimeError, match="own transaction"):
+            append(app_conn)
+    assert app_conn.execute("SELECT count(*) AS n FROM audit_events").fetchone()["n"] == 0
+
+
 # --- concurrency -------------------------------------------------------------
 
 
