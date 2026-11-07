@@ -33,3 +33,20 @@ class FakeEmbedder:
         if norm == 0:  # no words at all: any fixed direction (zero vectors break cosine)
             vector[0], norm = 1.0, 1.0
         return [x / norm for x in vector]
+
+
+class FakeChat:
+    """Returns a fixed reply (or reply(messages)) and records every call."""
+
+    def __init__(self, reply="The notice period is 45 days [1].", model="gpt-4o-mini-2024-07-18"):
+        self.reply = reply
+        self.model = model
+        self.calls: list[dict] = []
+
+    def complete(self, model, messages, **params):
+        from app.answer import ChatResult
+
+        self.calls.append({"model": model, "messages": messages, "params": params})
+        text = self.reply(messages) if callable(self.reply) else self.reply
+        return ChatResult(text=text, model=self.model, system_fingerprint="fp_fake",
+                          finish_reason="stop")
