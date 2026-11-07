@@ -72,7 +72,7 @@ Requirements: Docker (Desktop or another runtime) and [uv](https://docs.astral.s
 cp .env.example .env                  # an OpenAI key is only needed for the RAG part, later
 docker compose up -d --wait           # Postgres 16 + pgvector; applies sql/001_schema.sql on first start
 uv sync                               # install dependencies
-uv run pytest                         # 40 tests, no API key needed
+uv run pytest                         
 uv run python scripts/tamper_demo.py --yes   # break the chain on purpose and watch it get caught
 ```
 
